@@ -21,10 +21,10 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC_BY_NC_SA_4_0(source_url="https://github.com/Spritea/GMOT40#License")
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Environmental()]
-CATEGORY: Category = Category.Environmental()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Surveillance()]
+CATEGORY: Category = Category.Surveillance()
 
-CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.Identification()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_DATE: Optional[str] = "2021-04-07"  # e.g. "YYYY-MM-DD"
@@ -106,7 +106,7 @@ SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
 }
 TAGS: Optional[
     List[Literal["multi-view", "synthetic", "simulation", "multi-camera", "multi-modal"]]
-] = None
+] = ["multi-object-tracking"]
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
