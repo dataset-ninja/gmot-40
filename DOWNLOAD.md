@@ -1,6 +1,6 @@
 Dataset **GMOT-40** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/v/p/xf/M5gEXJ9iad6uXkjwB2pOW11rmsiC8my3Y2M6XlWEjOtdmgXBryPnhatLtatnX2ChaSUmh2pmZlsO5rtUTNKFXrFanbEUc8kGV2Mn6fY5z4hsE1rGyRaj4BS5QXmN.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
